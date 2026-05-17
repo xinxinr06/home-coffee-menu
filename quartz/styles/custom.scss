@@ -389,6 +389,15 @@ html {
   }
 }
 
+// ─── Hide mobile hamburger / sidebar toggle ───────────────────────────────────
+.sidebar-toggle,
+button.sidebar-toggle,
+#sidebar-toggle,
+[aria-label="Toggle sidebar"],
+.mobile-only {
+  display: none !important;
+}
+
 // ─── PageTitle logo: coffee cup icon (store-sign style) ──────────────────────
 .page-title {
   margin: 0.6rem 0 0.8rem;

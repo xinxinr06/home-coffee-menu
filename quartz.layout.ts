@@ -19,15 +19,6 @@ export const defaultContentPageLayout: PageLayout = {
   ],
   left: [
     Component.DesktopOnly(Component.PageTitle()),
-    Component.DesktopOnly(
-      Component.Flex({
-        components: [
-          { Component: Component.Search(), grow: true },
-          { Component: Component.Darkmode() },
-          { Component: Component.ReaderMode() },
-        ],
-      }),
-    ),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [Component.DesktopOnly(Component.TableOfContents()), Component.Backlinks()],
@@ -37,14 +28,6 @@ export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs()],
   left: [
     Component.DesktopOnly(Component.PageTitle()),
-    Component.DesktopOnly(
-      Component.Flex({
-        components: [
-          { Component: Component.Search(), grow: true },
-          { Component: Component.Darkmode() },
-        ],
-      }),
-    ),
     Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
