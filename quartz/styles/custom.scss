@@ -394,13 +394,26 @@ html {
 button.sidebar-toggle,
 #sidebar-toggle,
 [aria-label="Toggle sidebar"],
+[aria-label="open explorer"],
+[aria-label="toggle sidebar"],
 .mobile-only,
 .explorer-toggle,
 #mobile-explorer-toggle,
+#mobile-sidebar-toggle,
 button[class*="toggle"],
 button[class*="hamburger"],
-button[class*="explorer"] {
+button[class*="explorer"],
+button[aria-controls],
+button[aria-expanded] {
   display: none !important;
+}
+
+@media (max-width: 800px) {
+  header button,
+  .left button,
+  aside button {
+    display: none !important;
+  }
 }
 
 // ─── PageTitle logo: coffee cup icon (store-sign style) ──────────────────────
