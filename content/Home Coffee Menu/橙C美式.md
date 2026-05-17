@@ -14,7 +14,7 @@ ingredients:
   - 橙汁或橙C基底
   - 水
   - 冰块
-image: assets/orange-c-americano.svg
+image: assets/orange-c-americano.jpg
 serve: 冷/热
 risk: 低
 tags:
@@ -23,7 +23,7 @@ tags:
 
 # 橙C美式
 
-![图片 - 橙C美式](assets/orange-c-americano.svg)
+![图片 - 橙C美式](assets/orange-c-americano.jpg)
 
 > 橙香明亮，维C感清爽，咖啡尾韵干净。 `冷/热` ``
 > 主要材料：浓缩咖啡、橙汁或橙C基底、水、冰块

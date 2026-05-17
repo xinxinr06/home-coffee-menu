@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --menu-card-radius: 8px;
   --menu-paper: #fffaf4;
@@ -125,7 +129,7 @@
 .menu-card img {
   width: 108px;
   aspect-ratio: 1 / 1;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: var(--menu-card-radius);
   background: var(--menu-blush);
 }
@@ -234,7 +238,7 @@
 .page article > p > img {
   width: min(100%, 540px);
   max-height: 300px;
-  object-fit: contain;
+  object-fit: cover;
   border: 1px solid rgba(143, 79, 47, 0.16);
   border-radius: var(--menu-card-radius);
   background: var(--menu-blush);

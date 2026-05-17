@@ -14,7 +14,7 @@ ingredients:
   - 橙C基底
   - 牛奶
   - 冰块
-image: assets/orange-c-latte.svg
+image: assets/orange-c-latte.jpg
 serve: 冷/热
 risk: 中
 tags:
@@ -23,7 +23,7 @@ tags:
 
 # 橙C拿铁
 
-![图片 - 橙C拿铁](assets/orange-c-latte.svg)
+![图片 - 橙C拿铁](assets/orange-c-latte.jpg)
 
 > 橙香奶咖，甜感明显，像橙味甜品。 `冷/热` ``
 > 主要材料：浓缩咖啡、橙C基底、牛奶、冰块
