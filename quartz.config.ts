@@ -6,7 +6,7 @@ const config: QuartzConfig = {
     pageTitle: "Home Coffee Menu",
     pageTitleSuffix: "",
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,
     analytics: null,
     locale: "zh-CN",
     baseUrl: "xinxinr06.github.io/home-coffee-menu",
