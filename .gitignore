@@ -1,0 +1,22 @@
+﻿# Only publish this small Quartz wrapper repo, not the whole Obsidian vault.
+.quartz/
+public/
+.cache/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Keep private vault material out if this file is copied upward by mistake.
+.obsidian/
+Daily Review/
+German/
+Journal/
+Research/
+*.canvas
+*.base
+Pasted image*
+Untitled*
+Welcome.md
+test.md
+0409.md
+吉他练习.md

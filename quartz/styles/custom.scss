@@ -1,0 +1,64 @@
+﻿:root {
+  --menu-card-radius: 8px;
+}
+
+.page article {
+  max-width: 760px;
+}
+
+.page article h1 {
+  margin-bottom: 0.75rem;
+}
+
+.page article h2,
+.page article h3 {
+  scroll-margin-top: 5rem;
+}
+
+.page article ul {
+  padding-left: 1.15rem;
+}
+
+.page article li {
+  margin: 0.25rem 0;
+}
+
+.page article a.internal {
+  font-weight: 650;
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+}
+
+.page article pre,
+.page article table {
+  overflow-x: auto;
+}
+
+@media (max-width: 800px) {
+  body {
+    font-size: 16px;
+  }
+
+  .page article {
+    padding-inline: 1rem;
+  }
+
+  .page article h1 {
+    font-size: 1.75rem;
+    line-height: 1.2;
+  }
+
+  .page article h2 {
+    font-size: 1.25rem;
+    margin-top: 1.65rem;
+  }
+
+  .page article h3 {
+    font-size: 1.05rem;
+    margin-top: 1.25rem;
+  }
+
+  .page article li {
+    margin: 0.4rem 0;
+  }
+}
