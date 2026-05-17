@@ -18,8 +18,7 @@ export const defaultContentPageLayout: PageLayout = {
     }),
   ],
   left: [
-    Component.DesktopOnly(Component.PageTitle()),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.PageTitle(),
   ],
   right: [Component.DesktopOnly(Component.TableOfContents()), Component.Backlinks()],
 }
@@ -27,8 +26,7 @@ export const defaultContentPageLayout: PageLayout = {
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [Component.Breadcrumbs()],
   left: [
-    Component.DesktopOnly(Component.PageTitle()),
-    Component.DesktopOnly(Component.Explorer()),
+    Component.PageTitle(),
   ],
   right: [],
 }

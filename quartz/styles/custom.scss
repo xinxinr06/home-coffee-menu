@@ -389,41 +389,6 @@ html {
   }
 }
 
-// ─── Hide mobile hamburger / sidebar toggle ───────────────────────────────────
-html body .sidebar-toggle,
-html body button.sidebar-toggle,
-html body #sidebar-toggle,
-html body [aria-label="Toggle sidebar"],
-html body [aria-label="open explorer"],
-html body [aria-label="toggle sidebar"],
-html body .mobile-only,
-html body .explorer-toggle,
-html body #mobile-explorer-toggle,
-html body #mobile-sidebar-toggle,
-html body button[class*="toggle"],
-html body button[class*="hamburger"],
-html body button[class*="explorer"],
-html body button[aria-controls],
-html body button[aria-expanded] {
-  display: none !important;
-}
-
-@media (max-width: 800px) {
-  html body .mobile-only,
-  html body .explorer-toggle,
-  html body #mobile-explorer-toggle,
-  html body header button,
-  html body .left button,
-  html body aside button {
-    display: none !important;
-  }
-
-  .page-title {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-  }
-}
 
 // ─── PageTitle logo: coffee cup icon (store-sign style) ──────────────────────
 .page-title {
