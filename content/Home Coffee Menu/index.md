@@ -15,7 +15,6 @@ tags:
 
 # Home Coffee Menu
 
-只用于浏览的家庭咖啡菜单。点进饮品可以看材料、比例和做法；这里不做登录、点单、购物车或库存管理。
 
 <div class="coffee-menu-shell"><nav class="menu-category-rail" aria-label="咖啡分类"><a href="#popular">人气推荐</a><a href="#fruit-americano">果咖美式</a><a href="#fruit-latte">果咖拿铁</a><a href="#classic-coffee">经典咖啡</a><a href="#milk-coconut">奶咖 / 生椰</a><a href="#light-cheese">轻芝士</a></nav><div class="menu-list-panel">
 <section class="menu-section" id="popular"><h2>人气推荐</h2><div class="menu-list"><a class="menu-card" href="生椰拿铁"><img src="assets/coconut-latte.jpg" alt="生椰拿铁" loading="lazy" /><span class="menu-card-body"><span class="menu-card-title">生椰拿铁</span><span class="menu-tags"><span>冷/热</span><span>生椰</span></span><span class="menu-desc">椰香明显，奶感顺滑，甜感自然。</span><span class="menu-cost">材料参考：椰乳 + 牛奶 + 浓缩，成本感中等。</span></span></a><a class="menu-card" href="苹果美式"><img src="assets/apple-americano.jpg" alt="苹果美式" loading="lazy" /><span class="menu-card-body"><span class="menu-card-title">苹果美式</span><span class="menu-tags"><span>冷/热</span><span>苹果</span></span><span class="menu-desc">苹果清香，酸甜轻盈，美式底干净。</span><span class="menu-cost">材料参考：苹果汁 + 浓缩，成本感偏低。</span></span></a><a class="menu-card" href="厚乳拿铁"><img src="assets/thick-milk-latte.jpg" alt="厚乳拿铁" loading="lazy" /><span class="menu-card-body"><span class="menu-card-title">厚乳拿铁</span><span class="menu-tags"><span>冷/热</span><span>厚乳</span></span><span class="menu-desc">厚乳奶香重，入口圆润，日常稳妥。</span><span class="menu-cost">材料参考：厚乳 + 牛奶 + 浓缩，成本感中等。</span></span></a></div></section>
