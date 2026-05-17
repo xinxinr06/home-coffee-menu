@@ -66,13 +66,16 @@ html {
   font-size: 0.92rem;
   font-weight: 760;
   line-height: 1.25;
+  letter-spacing: 0;
   text-decoration: none;
+  transition: background 0.15s ease, color 0.15s ease, letter-spacing 0.15s ease;
 }
 
 .menu-category-rail a:hover,
 .menu-category-rail a:focus-visible {
   background: var(--menu-sage-soft);
   color: #315f52;
+  letter-spacing: 0.04em;
   text-decoration: none;
 }
 
@@ -87,12 +90,13 @@ html {
 
 .menu-section h2 {
   margin: 0 0 0.62rem;
-  padding: 0;
+  padding: 0 0 0 0.7rem;
   border: 0;
+  border-left: 3px solid var(--menu-gold);
   color: var(--menu-coffee-dark);
   font-size: 1.13rem;
   line-height: 1.25;
-  letter-spacing: 0;
+  letter-spacing: 0.04em;
 }
 
 .menu-list {
@@ -116,14 +120,17 @@ html {
   color: var(--menu-muted);
   line-height: 1.45;
   text-decoration: none;
-  box-shadow: 0 1px 0 rgba(45, 36, 29, 0.04);
+  box-shadow: 0 1px 3px rgba(45, 36, 29, 0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
 }
 
 .menu-card:hover,
 .menu-card:focus-visible {
-  border-color: rgba(79, 138, 120, 0.5);
+  border-color: rgba(79, 138, 120, 0.45);
   color: var(--menu-muted);
   text-decoration: none;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(45, 36, 29, 0.10);
 }
 
 .menu-card img {
