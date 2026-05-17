@@ -25,7 +25,7 @@ tags:
 
 ![图片 - 橙C拿铁](assets/orange-c-latte.svg)
 
-> 橙香奶咖，甜感明显，像橙味甜品。 $(System.Collections.Hashtable.Serve) $(System.Collections.Hashtable.Risk)风险
+> 橙香奶咖，甜感明显，像橙味甜品。 `冷/热` ``
 > 主要材料：浓缩咖啡、橙C基底、牛奶、冰块
 
 ## 口味

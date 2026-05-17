@@ -22,7 +22,7 @@ tags:
 
 ![图片 - Espresso](assets/espresso.svg)
 
-> 短小浓烈，咖啡风味最集中。 $(System.Collections.Hashtable.Serve) $(System.Collections.Hashtable.Risk)风险
+> 短小浓烈，咖啡风味最集中。 `热` ``
 > 主要材料：咖啡豆、热水
 
 ## 口味

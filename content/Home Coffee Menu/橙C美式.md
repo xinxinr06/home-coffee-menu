@@ -25,7 +25,7 @@ tags:
 
 ![图片 - 橙C美式](assets/orange-c-americano.svg)
 
-> 橙香明亮，维C感清爽，咖啡尾韵干净。 $(System.Collections.Hashtable.Serve) $(System.Collections.Hashtable.Risk)风险
+> 橙香明亮，维C感清爽，咖啡尾韵干净。 `冷/热` ``
 > 主要材料：浓缩咖啡、橙汁或橙C基底、水、冰块
 
 ## 口味
